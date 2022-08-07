@@ -2,6 +2,7 @@ $font-color: #37bcf9;
 $font-color-secondary: rgb(16, 127, 174);
 $font-color-third: rgb(45, 171, 225);
 $button-background-primary: rgb(16, 127, 174);
+$button-background-secondary: rgb(3, 65, 91);
 
 @font-face {
     font-family: "TrebuchetMS";
@@ -289,7 +290,7 @@ body {
         .login {
             form {
                 margin: 0 auto;
-                text-align: center;
+                // text-align: center;
                 border: solid 1px #ccc;
                 border-radius: 3px;
                 box-shadow: 1px 0px 5px black;
@@ -348,36 +349,61 @@ body {
 
                 input[type='submit'],
                 input[type='reset']  {
-                    width: 30%;
-                    height: 30px;
+                    // display: block;
+                    text-align: center;
+                    width: 100px;
+                    height: 35px;
+                    margin-top: 10px;
                     border-radius: 3px;
-                    background: $button-background-primary;
                     color: white;
+                    background: linear-gradient(to bottom, $button-background-primary 0%, $button-background-secondary 100%);
                     text-transform: uppercase;
                     border: solid 1px #ccc;
-                    display: block;
                     float: left;
-                    margin: 5%;
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-family: 'TrebuchetMS';
+                    margin-left: 23px;
+                    margin-bottom: 10px;
                 }
 
-            
+                input[type='reset'] {
+                    margin-right: 20px;
+                }
 
-
+                input[type='submit']:hover,
+                input[type='reset']:hover  {
+                    background: $button-background-primary;
+                 }
+               
                 a {
-                    color: $font-color-third;
+                    color: #555;
+                    display: block;
+                    font-size: 14px;
                     text-decoration: none;
+                    margin-top: 5px;
+                    margin-left: 24px;
+                }
+
+                a:hover {
+                    color: $font-color;
                 }
             }
         }
 
         #social {
             padding: 20px;
-            width: 150px;
+            width: 200px;
             height: 305px;
             border: solid 1px #ccc;
             box-shadow: 1px 1px 8px black;
             margin: 20px auto;
             background: white;
+            font-family: 'WebSymbolsRegular'; 
+
+            .twitter a, .youtube a, .facebook a {
+                
+            }
         }
     }
 
