@@ -1,0 +1,58 @@
+
+
+@media (max-width:1250px){
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+
+        #articles {
+            width: 65%;
+        }
+
+        #info {
+            #banner {
+                h1 {
+                    font-size:35px;
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .card {
+        width: 16%;
+        margin: 1%;
+    }
+
+    footer {
+        .wrap {
+            div {
+                width: 25%;
+                margin: 2%;
+
+                h5 {
+                    font-size: 25px;
+                }
+            }
+         
+            #info {
+                #browsers {    
+                    a {
+                        img {                        
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+            nav {
+                h5 {
+                    font-size: 25px;  
+                }
+            }
+        }
+
+    }
+}
+

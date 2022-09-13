@@ -1,0 +1,34 @@
+@media (max-width: 1250px) {
+  .wrap {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .wrap #articles {
+    width: 65%;
+  }
+  .wrap #info #banner h1 {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .card {
+    width: 16%;
+    margin: 1%;
+  }
+  footer .wrap div {
+    width: 25%;
+    margin: 2%;
+  }
+  footer .wrap div h5 {
+    font-size: 25px;
+  }
+  footer .wrap #info #browsers a img {
+    width: 15%;
+  }
+  footer .wrap nav h5 {
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
