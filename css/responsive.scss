@@ -1,5 +1,6 @@
 
 
+
 @media (max-width:1250px){
     .wrap {
         width: 90%;
@@ -24,12 +25,13 @@
     .card {
         width: 16%;
         margin: 1%;
+        height: auto;
     }
 
     footer {
         .wrap {
             div {
-                width: 25%;
+                // width: 25%;
                 margin: 2%;
 
                 h5 {
@@ -56,3 +58,217 @@
     }
 }
 
+@media (max-width: 1204px) {
+    footer {
+        width: 116%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1112px) {
+    .wrap {
+        #articles {
+            width: 62%;;
+        }
+
+        #info {
+            .cards {
+                .card {  
+                                             
+                        .description{
+                            margin-top: 10%;
+                            font-size: 10px;
+                        }
+
+                        h2{
+                            font-size: 14px; 
+                        }
+                    
+                    .category {
+                        font-size:17px;
+                    }
+                    .description {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1091px) {
+    .wrap {        
+        #info {
+            .cards {
+                .card {
+                    width: 11%;                    
+                } 
+            }    
+        } 
+    }
+}
+
+@media (max-width: 1013px) {
+    #header {
+        width: 100%;
+        #wrap {
+            width: 766px;
+        }
+    }
+    .wrap {
+        #articles {
+            width: 60%;
+        }
+    }
+
+    footer {
+        .wrap {
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 953px) {
+    .wrap {
+        #info {
+            #articles{
+                width: 50%;
+            }
+        #aside {
+            width: 25%;
+        }
+        }
+    }
+    footer {
+        .wrap {
+            #nav-footer, #location, #info{
+                width: 20%;
+                ul {
+                    li {
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        width: 105%;
+    }
+}
+
+@media (max-width: 925px) {
+    .wrap #aside #search form input[type=text] {
+        width: 78%;
+    }
+
+    .wrap #info #aside {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrap #info .cards .card {
+        height: auto;
+        .description{
+            display: none;
+        }
+        .icon {
+            height:auto;
+        }
+    }
+
+    footer .wrap #info img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 724px) {
+    #header {
+        height: 150px;
+        width: 107%;
+
+        #wrap {
+            nav {
+                float: none;
+                clear: both;
+                margin: 0 auto;
+                width: 440px;
+            }
+            #logo {
+                margin: 0 auto;
+                float: none;
+            }
+        } 
+    }
+
+    @media(max-width: 688px) {
+        footer {
+            width: 116%;
+            height: auto;
+            margin-bottom: 10%;
+
+            .wrap #nav-footer, .wrap #location, .wrap #info {
+                width: 78%;
+            }
+
+            footer .wrap #nav-footer, footer .wrap #location, footer .wrap #info {                
+                height: auto;
+            }
+
+           .wrap #info {
+                height: auto;
+            }
+        }
+
+        #header {
+            width: 116%;
+        }
+        
+        .wrap{
+            padding-left: 4.7%;
+            width: 100%;
+
+            #info {
+
+                #aside {
+                    padding-top: 5%;
+                    margin: 0 auto;
+                    width: 100%;
+                    min-height: auto;
+
+                    #search form input[type=text] {
+                        width: 93%;
+                    }
+
+                    .login form #user, .login form #password {                                                
+                        margin-left: 7%;
+                    }
+                   
+                }
+
+                #articles {
+                    width: 100%;
+                }
+
+                #banner {
+                    width: 100%;
+                    h1 {
+                        font-size: 25px;
+                        width: auto;
+                    }
+                }
+
+                .cards {
+                    .card {
+                        width: 100%;
+                        margin-left: 0;
+                    }
+                    .card:first-child {
+                        margin-left: 0; 
+                
+                    }
+                }
+        }
+    }
+}
+}
